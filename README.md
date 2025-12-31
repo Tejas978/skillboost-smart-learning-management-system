@@ -67,7 +67,6 @@ Install my-project with npm
 
 ```bash
   git clone https://github.com/Tejas978/skillboost-smart-learning-management-system.git
-  cd LMS
 
 ```
     
