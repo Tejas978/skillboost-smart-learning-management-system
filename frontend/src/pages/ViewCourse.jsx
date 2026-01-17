@@ -197,12 +197,12 @@ function ViewCourse() {
     <div className="flex items-baseline gap-3">
       {/* Final Price */}
       <span className="text-4xl font-bold text-gray-900">
-        ₹ {discountedPrice-1}
+        ₹ {(2*discountedPrice)-1}
       </span>
 
       {/* Original Price */}
       <span className="text-xl text-gray-400 line-through">
-        ₹ {originalPrice+1}
+        ₹ {(2*originalPrice)+1}
       </span>
 
       {/* Discount */}
